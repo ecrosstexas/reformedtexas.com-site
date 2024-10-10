@@ -1,5 +1,5 @@
-export const url = process.env.URL || 'http://localhost:8080';
-export const siteName = 'Eleventy Excellent';
+export const url = process.env.URL || 'http://localhost:8081';
+export const siteName = 'Presbyterian & Reformed Texas';
 export const siteDescription = 'Eleventy starter for building modern, resilient websites';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
@@ -9,12 +9,12 @@ export const author = {
   name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
   email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-  website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+  website: 'https://www.ecrosstexas.com' // i.e. https.://www.lenesaile.com - the personal site of the author
 };
 export const creator = {
   name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
   email: 'hola@lenesaile.com',
-  website: 'https://www.lenesaile.com',
+  website: 'https://www.ecrosstexas.com',
   social: 'https://front-end.social/@lene'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
