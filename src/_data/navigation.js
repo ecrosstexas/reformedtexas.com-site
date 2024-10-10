@@ -1,16 +1,20 @@
 export default {
   top: [
     {
+      text: 'Episodes',
+      url: '/episodes/'
+    },
+    {
+      text: 'Churches',
+      url: '/churches/'
+    },
+    {
+      text: 'Events',
+      url: '/events/'
+    },    
+    {
       text: 'About',
       url: '/about/'
-    },
-    {
-      text: 'Docs',
-      url: '/get-started/'
-    },
-    {
-      text: 'Built with',
-      url: '/built-with/'
     },
     {
       text: 'Blog',
