@@ -3,6 +3,11 @@ export const getAllPosts = collection => {
   return collection.getFilteredByGlob('./src/posts/**/*.md').reverse();
 };
 
+/** All churches as a collection. */
+export const getAllChurches = collection => {
+  return collection.getFilteredByGlob('./src/churches/**/*.md').reverse();
+};
+
 /** All markdown files as a collection for sitemap.xml */
 export const onlyMarkdown = collection => {
   return collection.getFilteredByGlob('./src/**/*.md');

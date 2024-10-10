@@ -1,0 +1,6 @@
+{
+    "layout": "church",
+    "tags": "church",
+    "permalink": "/churches/{{ title | slugify }}/index.html"
+  }
+  
